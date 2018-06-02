@@ -1,0 +1,32 @@
+svg, input {
+	margin: 0 auto;
+	display: block;
+	padding: 10px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.line {
+  fill: none;
+  stroke: #4184F3;
+  stroke-width: 4px;
+}
+       
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+.focus circle {
+  fill: #4184F3;
+  stroke: #4184F3;
+  stroke-width: 5px;
+}
+  
+.hover_line {
+  stroke: gray;
+  stroke-width: 2px;
+  stroke-dasharray: 3,3;
+}
